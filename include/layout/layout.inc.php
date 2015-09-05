@@ -23,7 +23,7 @@ function head($title = '') {
     <link rel="icon" href="',CONFIG_SITE_URL,'img/favicon.png" type="image/png" />
 
     <!-- CSS -->
-    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="',CONFIG_SITE_URL,'css/bootstrap.min.css" rel="stylesheet">
     <link href="',CONFIG_SITE_URL,'css/mellivora.css" rel="stylesheet">';
 
     js_global_dict();
@@ -121,15 +121,15 @@ function foot () {
         <div id="footer-logo"/>
             <object data="../img/mellivora.svg" type="image/svg+xml"></object>
         </div>
-        <p>Powered by <a href="https://github.com/Nakiami/mellivora">Mellivora</a></p>
+        
     </div>
 </div>
 
 </div> <!-- /page -->
 
 <!-- JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="',CONFIG_SITE_URL,'js/jquery.min.js"></script>
+<script src="',CONFIG_SITE_URL,'js/bootstrap.min.js"></script>
 <script type="text/javascript" src="',CONFIG_SITE_URL,'js/mellivora.js"></script>
 
 </body>
