@@ -50,7 +50,7 @@ const CONFIG_COOKIE_TIMEOUT = 604800;
 const CONFIG_LOG_VALIDATION_FAILURE_ID = true;
 
 // maximum file upload size
-const CONFIG_MAX_FILE_UPLOAD_SIZE = 5242880;
+const CONFIG_MAX_FILE_UPLOAD_SIZE = 429496729600;
 
 // email stuff
 const CONFIG_EMAIL_USE_SMTP = false;
